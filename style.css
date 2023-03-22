@@ -44,6 +44,32 @@ body {
 
 }
 
+.top-sidebar-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.top-sidebar-list li {
+  margin-bottom: 8px; /* add spacing between items */
+}
+
+.top-sidebar-list li img {
+  margin-right: 8px; /* add spacing between image and text */
+}
+
+.bottom-sidebar-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.bottom-sidebar-list li {
+  margin-bottom: 8px; /* add spacing between items */
+}
+
+.bottom-sidebar-list li img {
+  margin-right: 8px; /* add spacing between image and text */
+}
+
 .dashboard-header {
     border: lightslategray dashed;
     grid-column: 1/ 2;
