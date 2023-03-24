@@ -1,4 +1,8 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html {
+    font-size: 18px !important;
+    font-family: 'Roboto', sans-serif !important;
     padding: 0;
     margin: 0;
 }
@@ -17,15 +21,41 @@ body {
 }
 
 .header-top {
-    border: black dashed; 
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
+    display: grid;
+    border: black dashed;
+    /* grid-column: 1 / 2;
+    grid-row: 1 / 2; */
+    grid-template-columns: 4fr 1fr;
 }
 
-.header-bottom {
-    border: black dashed; 
+.search {
+    border: red dashed;
     grid-column: 1 / 2;
-    grid-row: 2 / 3;
+}
+
+.right-side-header-top {
+    border: red dashed;
+    grid-column: 2 / 3;
+}
+
+.left-side-header-bottom {
+    border: blue dashed;
+    grid-column: 1 / 2;
+}
+
+.right-side-header-bottom {
+    border: blue dashed;
+    grid-column: 2 / 3;
+}
+
+
+
+.header-bottom {
+    display: grid;
+    border: black dashed;
+    /* grid-column: 1 / 2;
+    grid-row: 2 / 3; */
+    grid-template-columns: 3fr 1fr;
 }
 
 
@@ -41,49 +71,64 @@ body {
     background: #0ea5e9;
     grid-row: 1 / 5;
     grid-template-rows: .25fr 1fr 1fr;
+    color: white;
+    padding-left: 1rem;
 
 }
 
 .top-sidebar-list ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .top-sidebar-list li {
-  margin-bottom: 8px; /* add spacing between items */
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    /* add spacing between items */
 }
 
 .top-sidebar-list li img {
-  margin-right: 8px; /* add spacing between image and text */
+    margin-right: 8px;
+    /* add spacing between image and text */
 }
 
+
 .bottom-sidebar-list ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .bottom-sidebar-list li {
-  margin-bottom: 8px; /* add spacing between items */
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    /* add spacing between items */
 }
 
 .bottom-sidebar-list li img {
-  margin-right: 8px; /* add spacing between image and text */
+    margin-right: 8px;
+    /* add spacing between image and text */
 }
 
+
 .dashboard-header {
-    border: lightslategray dashed;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 1rem;
+    /* border: lightslategray dashed; */
     grid-column: 1/ 2;
     grid-row: 1 / 2;
 }
 
 .top-section-sidebar {
-    border: lightslategray dashed;
+    /* border: lightslategray dashed; */
     grid-column: 1/ 2;
     grid-row: 2 / 3;
 }
 
 .bottom-section-sidebar {
-    border: lightslategray dashed;
+    /* border: lightslategray dashed; */
     grid-column: 1/ 2;
     grid-row: 3 / 4;
 }
@@ -138,6 +183,10 @@ body {
 
 img {
     height: 25px;
+}
+
+span {
+    font-size: 1rem;
 }
 
 
