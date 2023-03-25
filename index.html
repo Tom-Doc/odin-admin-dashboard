@@ -14,17 +14,33 @@
     <div class="grid-container">
         <div class="header">
             <div class="header-top">
-                <div class="search">
-                    <label for="search">
-                        <img class="icon" src="./icons/text-search.svg" alt="search icon">
-                    </label>
-                    <input type="search">
+                <div class="search-container">
+                    <div class="search">
+                        <label for="search">
+                            <img class="icon" id="search-icon" src="./icons/text-search.svg" alt="search icon">
+                        </label>
+                        <input type="search">
+                    </div>
                 </div>
-                <div class="right-side-header-top"></div>
+                <div class="right-side-header-top">
+                    <img src="./icons/bell-ring.svg" alt="Alert Bell">
+                    <img id="main-avatar" src="./icons/MainUserAvatar.svg" alt="Main User Avatar">
+                    <span>Tom Doc</span>
+                </div>
             </div>
             <div class="header-bottom">
-                <div class="left-side-header-bottom"></div>
-                <div class="right-side-header-bottom"></div>
+                <div class="left-side-header-bottom">
+                    <img id="greeting-icon" src="./icons/MainUserAvatar.svg" alt="">
+                    <div>
+                      <p class="greeting">Hi there,</p>
+                      <p class="greeting">Tom Docherty @TomDocs</p>
+                    </div>
+                  </div>
+                <div class="right-side-header-bottom">
+                    <button>Refresh</button>
+                    <button>Forward</button>
+                    <button>Share</button>
+                </div>
             </div>
         </div>
         <div class="tickets-header">
