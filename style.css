@@ -121,6 +121,16 @@ input[type="search"]:focus {
     justify-content: space-evenly;
 }
 
+.dashboard-header li {
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-header li img {
+    margin-right: 8px;
+    /* add spacing between image and text */
+}
+
 .sidebar {
     display: grid;
     background: #0ea5e9;
