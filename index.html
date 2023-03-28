@@ -32,10 +32,10 @@
                 <div class="left-side-header-bottom">
                     <img id="greeting-icon" src="./icons/MainUserAvatar.svg" alt="">
                     <div>
-                      <p class="greeting">Hi there,</p>
-                      <p class="greeting">Tom Docherty @TomDocs</p>
+                        <p class="greeting-top-text">Hi there,</p>
+                        <p class="greeting-bottom-text">Tom Docherty @TomDocs</p>
                     </div>
-                  </div>
+                </div>
                 <div class="right-side-header-bottom">
                     <button>Refresh</button>
                     <button>Forward</button>
@@ -57,23 +57,23 @@
                     <ul>
                         <li>
                             <img src="./icons/home.svg" alt="home">
-                            <span>Home</span>
+                            <span><a href="#">Home</a></span>
                         </li>
                         <li>
                             <img src="./icons/profile.svg" alt="profile">
-                            <span>Profile</span>
+                            <span><a href="#">Profile</a></span>
                         </li>
                         <li>
                             <img src="./icons/history.svg" alt="history">
-                            <span>History</span>
+                            <span><a href="#">History</a></span>
                         </li>
                         <li>
                             <img src="./icons/tasks.svg" alt="tasks">
-                            <span>Tasks</span>
+                            <span><a href="#">Tasks</a></span>
                         </li>
                         <li>
                             <img src="./icons/communities.svg" alt="communities">
-                            <span>Communities</span>
+                            <span><a href="#">Communities</a></span>
                         </li>
                     </ul>
                 </div>
@@ -83,15 +83,15 @@
                     <ul>
                         <li>
                             <img src="./icons/settings.svg" alt="settings">
-                            <span>Settings</span>
+                            <span><a href="#">Settings</a></span>
                         </li>
                         <li>
                             <img src="./icons/support.svg" alt="support">
-                            <span>Support</span>
+                            <span><a href="#">Support</a></span>
                         </li>
                         <li>
                             <img src="./icons/privacy.svg" alt="privacy">
-                            <span>Privacy</span>
+                            <span><a href="#">Privacy</a></span>
                         </li>
                     </ul>
                 </div>
@@ -100,8 +100,9 @@
         <div class="tickets-container">
             <div class="individual-ticket">
                 <div class="ticket-body">
-                    <p>Ticket #001: Unable to access email account. Requesting password reset and assistance with
-                        setting up 2-factor authentication. </p>
+                    <p id="ticket-number">Ticket #001:</p>
+                    <p id="ticket-text">Unable to access email account. Requesting password reset and assistance with
+                        setting up 2-factor authentication.</p>
                 </div>
                 <div class="ticket-icons">
                     <img src="./icons/favorite.svg" alt="Favorite">
@@ -111,8 +112,9 @@
             </div>
             <div class="individual-ticket">
                 <div class="ticket-body">
-                    <p>Ticket #002: Need to install new software on company laptop. IT department approval and
-                        assistance required. </p>
+                    <p id="ticket-number">Ticket #002:</p>
+                    <p id="ticket-text">Need to install new software on company laptop. IT department approval and
+                        assistance required.</p>
                 </div>
                 <div class="ticket-icons">
                     <img src="./icons/favorite.svg" alt="Favorite">
@@ -122,10 +124,11 @@
             </div>
             <div class="individual-ticket">
                 <div class="ticket-body">
-                    <p>Ticket #003: "I am having trouble accessing my company email on my mobile device. I have tried
+                    <p id="ticket-number">Ticket #003: </p>
+                    <p id="ticket-text">I am having trouble accessing my company email on my mobile device. I have tried
                         restarting the device and reinstalling the email app, but the problem persists. This is
                         impacting my ability to stay connected with work while on-the-go, so I would appreciate a prompt
-                        resolution. </p>
+                        resolution.</p>
                 </div>
                 <div class="ticket-icons">
                     <img src="./icons/favorite.svg" alt="Favorite">
@@ -135,8 +138,9 @@
             </div>
             <div class="individual-ticket">
                 <div class="ticket-body">
-                    <p>Ticket #004: Need to install new software on company laptop. IT department approval and
-                        assistance required. </p>
+                    <p id="ticket-number">Ticket #004: </p>
+                    <p id="ticket-text">Need to install new software on company laptop. IT department approval and
+                        assistance required.</p>
                 </div>
                 <div class="ticket-icons">
                     <img src="./icons/favorite.svg" alt="Favorite">
@@ -146,8 +150,9 @@
             </div>
             <div class="individual-ticket">
                 <div class="ticket-body">
-                    <p>Ticket #005: Requesting a new monitor as current one has dead pixels and is causing visual
-                        strain. </p>
+                    <p id="ticket-number">Ticket #005: </p>
+                    <p id="ticket-text">Requesting a new monitor as current one has dead pixels and is causing visual
+                        strain.</p>
                 </div>
                 <div class="ticket-icons">
                     <img src="./icons/favorite.svg" alt="Favorite">
@@ -157,10 +162,12 @@
             </div>
             <div class="individual-ticket">
                 <div class="ticket-body">
-                    <p>Ticket #006: "I accidentally deleted some important files from my computer and I need to recover
+                    <p id="ticket-number">Ticket #006: </p>
+                    <p id="ticket-text">I accidentally deleted some important files from my computer and I need to
+                        recover
                         them urgently. I have tried using some online recovery tools, but they have not been successful.
                         I am concerned about the impact of this data loss on my work, so please let me know if there is
-                        any way to retrieve the files. </p>
+                        any way to retrieve the files.</p>
                 </div>
                 <div class="ticket-icons">
                     <img src="./icons/favorite.svg" alt="Favorite">
@@ -170,9 +177,11 @@
             </div>
             <div class="individual-ticket">
                 <div class="ticket-body">
-                    <p>Ticket #007: Hi, I am trying to install a software on my computer, but I keep getting an error
+                    <p id="ticket-number">Ticket #007: </p>
+                    <p id="ticket-text">Hi, I am trying to install a software on my computer, but I keep getting an
+                        error
                         message during the installation process. The error message says that there was an issue with the
-                        installation package and that it cannot be installed. </p>
+                        installation package and that it cannot be installed.</p>
                 </div>
                 <div class="ticket-icons">
                     <img src="./icons/favorite.svg" alt="Favorite">
@@ -182,8 +191,10 @@
             </div>
             <div class="individual-ticket">
                 <div class="ticket-body">
-                    <p>Ticket #008: Received suspicious email. Need IT to verify if it's a phishing attempt and advise
-                        on next steps. </p>
+                    <p id="ticket-number">Ticket #008: </p>
+                    <p id="ticket-text">Received suspicious email. Need IT to verify if it's a phishing attempt and
+                        advise
+                        on next steps.</p>
                 </div>
                 <div class="ticket-icons">
                     <img src="./icons/favorite.svg" alt="Favorite">
@@ -196,13 +207,64 @@
             <div class="announcements-header">
                 <h1>Announcements</h1>
             </div>
-            <div class="announcements"></div>
+            <div class="announcements">
+                <div class="announcements-body">
+                    <p id="announcements-title">Upcoming Maintenance Downtime:</p>
+                    <p id="announcements-text">We will be performing maintenance on our servers and network
+                        infrastructure over the weekend. This may result in intermittent service interruptions and
+                        downtime for some systems.</p>
+                </div>
+                <div class="announcements-body">
+                    <p id="announcements-title">New Help Desk Ticketing System:</p>
+                    <p id="announcements-text">We are excited to announce that we have implemented a new help desk
+                        ticketing system. This new system will streamline the process of managing and resolving support
+                        requests. Please let us know if you have any questions or feedback about the new system.</p>
+                </div>
+                <div class="announcements-body">
+                    <p id="announcements-title">Cybersecurity Alert:</p>
+                    <p id="announcements-text">We have detected a new phishing attack targeting our organization. Please
+                        be vigilant when opening emails and avoid clicking on links or attachments from unknown sources.
+                        If you receive suspicious emails, please forward them to the IT Help Desk for investigation.</p>
+                </div>
+            </div>
             <div class="incoming-tickets-header">
                 <h1>Incoming Tickets</h1>
             </div>
-            <div class="incoming-tickets"></div>
+            <div class="incoming-tickets">
+                <div class="incoming-tickets-body">
+                    <ul>
+                        <li>
+                            <img id="user-icon" src="./icons/User1.svg" alt="">
+                            <div class="user-text">
+                                <span class="user-at">@SeanB</span> <br>
+                                <span class="user-name">Operations Manager</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img id="user-icon" src="./icons/User2.svg" alt="">
+                            <div class="user-text">
+                                <span class="user-at">@ChrisC</span> <br>
+                                <span class="user-name">Engineer</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img id="user-icon" src="./icons/User3.svg" alt="">
+                            <div class="user-text">
+                                <span class="user-at">@EmilyD</span> <br>
+                                <span class="user-name">Project Manager</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img id="user-icon" src="./icons/User4.svg" alt="">
+                            <div class="user-text">
+                                <span class="user-at">@JustinY</span> <br>
+                                <span class="user-name">Executive Assistant</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
 </body>
 
 </html>
