@@ -120,11 +120,16 @@ input[type="search"]:focus {
 .dashboard-header li {
     display: flex;
     align-items: center;
+    font-size: 1.5rem;
 }
 
 .dashboard-header li img {
-    margin-right: 8px;
+    margin-right: .5rem;
     /* add spacing between image and text */
+}
+
+.dashboard-header img {
+    height: 2.5rem;
 }
 
 .sidebar {
@@ -139,18 +144,17 @@ input[type="search"]:focus {
 
 .top-sidebar-list ul {
     list-style: none;
-    padding: 0;
+    padding-top: 1rem;
 }
 
 .top-sidebar-list li {
     display: flex;
     align-items: center;
     margin-bottom: 2rem;
-    /* add spacing between items */
 }
 
 .top-sidebar-list li img {
-    margin-right: 8px;
+    margin-right: 1rem;
     /* add spacing between image and text */
 }
 
@@ -164,11 +168,12 @@ input[type="search"]:focus {
     display: flex;
     align-items: center;
     margin-bottom: 2rem;
+    /* padding-left: .5rem; */
     /* add spacing between items */
 }
 
 .bottom-sidebar-list li img {
-    margin-right: 8px;
+    margin-right: 1rem;
     /* add spacing between image and text */
 }
 
@@ -242,7 +247,7 @@ input[type="search"]:focus {
     /* With position: relative in individual-ticket this will align the icons at the bottom right */
     bottom: 0;
     right: 0;
-    padding: 1rem
+    padding: 1rem;
 }
 
 .right-side-container {
@@ -416,6 +421,7 @@ a:hover {
 
     .dashboard-header {
         padding-bottom: 1rem;
+
     }
 
     .sidebar {
