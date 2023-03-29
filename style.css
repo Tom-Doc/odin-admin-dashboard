@@ -228,7 +228,7 @@ input[type="search"]:focus {
 
 #ticket-number {
     font-weight: bold;
-    padding-bottom: .25rem;
+    padding-bottom: .5rem;
 }
 
 #ticket-text {
@@ -281,7 +281,7 @@ input[type="search"]:focus {
 
 #announcements-title {
     font-weight: bold;
-    padding-bottom: .25rem;
+    padding-bottom: .5rem;
 }
 
 #announcements-text {
