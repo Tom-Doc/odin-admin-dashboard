@@ -40,7 +40,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem 2rem;
+    padding: 2rem;
     padding-right: 2rem;
 
 }
@@ -125,7 +125,6 @@ input[type="search"]:focus {
 
 .dashboard-header li img {
     margin-right: .5rem;
-    /* add spacing between image and text */
 }
 
 .dashboard-header img {
@@ -155,7 +154,6 @@ input[type="search"]:focus {
 
 .top-sidebar-list li img {
     margin-right: 1rem;
-    /* add spacing between image and text */
 }
 
 
@@ -168,13 +166,10 @@ input[type="search"]:focus {
     display: flex;
     align-items: center;
     margin-bottom: 2rem;
-    /* padding-left: .5rem; */
-    /* add spacing between items */
 }
 
 .bottom-sidebar-list li img {
     margin-right: 1rem;
-    /* add spacing between image and text */
 }
 
 
@@ -281,7 +276,7 @@ input[type="search"]:focus {
 }
 
 .announcements-body {
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 #announcements-title {
@@ -334,12 +329,10 @@ input[type="search"]:focus {
     display: flex;
     align-items: start;
     margin-bottom: 1rem;
-    /* add spacing between items */
 }
 
 .incoming-tickets-body li img {
     margin-right: 1rem;
-    /* add spacing between image and text */
 }
 
 .user-at {
